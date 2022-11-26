@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .App h1 {
+  color: lightseagreen;
+} */
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+
+.Menu button:hover {
+  cursor: pointer;
+  background-color:lightcyan;
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  
+}
+
+
+.Quiz button:hover {
+  cursor: pointer;
+  background-color:lightcyan;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+.EndScreen button:hover {
+  cursor: pointer;
+  background-color:lightcyan;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
+
+.options{
+  width: 100%;
+  display: flex;
+  justify-content : center;
+  flex-direction : column;
+  align-items : center;
+} 
+
